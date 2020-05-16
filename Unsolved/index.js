@@ -12,6 +12,12 @@ const questions = [
         message: "What is the title of your project?"
     },
     {
+        type: "list",
+        name: "status",
+        message: "What is the status of your project?",
+        choices: ["Complete", "In Progress", "Not Working"]
+    },
+    {
         type: "input",
         name: "description",
         message: "Enter a description of the project."
