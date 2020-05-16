@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const util = require("util");
+const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -21,11 +21,6 @@ const questions = [
         type: "input",
         name: "description",
         message: "Enter a description of the project."
-    },
-    {
-        type: "input",
-        name: "table",
-        message: "List the items for the table of contents."
     },
     {
         type: "input",

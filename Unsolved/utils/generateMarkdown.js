@@ -1,14 +1,14 @@
-generateBadge = () => {
+generateBadge = (status) => {
   var badge;
   switch (data.status) {
     case "Complete":
-      return badge = `https://img.shields.io/badge/<Build>-<Complete>-<green>`
+      return badge = `https://img.shields.io/badge/Build-Complete-green`
       break;
     case "In Progress":
-      return badge = `https://img.shields.io/badge/<Build>-<In Progress>-<yellow>`
+      return badge = `https://img.shields.io/badge/Build-In Progress-yellow`
       break;
     case "Not Working":
-      return badge = `https://img.shields.io/badge/<Build>-<Not Working>-<red>`
+      return badge = `https://img.shields.io/badge/Build-Not Working-red`
       break;
 
     default:
@@ -20,11 +20,18 @@ generateBadge = () => {
 
 function generateMarkdown(data) {
   return `
+${generateBadge(data.status)}
 # ${data.title}
 ${data.description}
 
 ##Table of Contents
-${data.table}
+
+*[Installing](#Installing)
+*[Usage](#Usage)
+*[Testing](#Testing)
+*[License](#License)
+*[Contributors](#Contributors)
+*[Questions](#Questions)
 
 ### Installing
 ${data.install}
