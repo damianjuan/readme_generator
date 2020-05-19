@@ -1,4 +1,4 @@
-[build]:(https://img.shields.io/badge/Build-Complete-green)
+[![build](https://img.shields.io/badge/Build-Complete-green)](shields.io)
 # ReadME Generator
 basic readme generator
 
