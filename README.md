@@ -1,5 +1,4 @@
-
-https://img.shields.io/badge/Build-Complete-green
+[![Inline docs](https://img.shields.io/badge/Build-Complete-green)
 # ReadME Generator
 basic readme generator
 
