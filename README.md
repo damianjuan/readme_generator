@@ -4,12 +4,12 @@ basic readme generator
 
 ## Table of Contents
 
-*[Installing](#Installing)  
-*[Usage](#Usage)  
-*[Testing](#Testing)  
-*[License](#License)  
-*[Contributors](#Contributors)  
-*[Questions](#Questions)  
+[Installing](#Installing)  
+[Usage](#Usage)  
+[Testing](#Testing)  
+[License](#License)  
+[Contributors](#Contributors)  
+[Questions](#Questions)  
 
 ### Installing
 npm i
