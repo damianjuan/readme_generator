@@ -2,7 +2,7 @@
 # ReadME Generator
 basic readme generator
 
-##Table of Contents
+## Table of Contents
 
 *[Installing](#Installing)  
 *[Usage](#Usage)  
