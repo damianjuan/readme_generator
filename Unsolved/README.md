@@ -1,7 +1,7 @@
 
 https://img.shields.io/badge/Build-Complete-green
-# README_Generator
-This is a basic readme generator
+# ReadME Generator
+basic readme generator
 
 ##Table of Contents
 
@@ -16,7 +16,7 @@ This is a basic readme generator
 npm i
 
 ### Usage
-For personal use
+for personal use
 
 ### Testing
 none
@@ -26,7 +26,7 @@ none
 undefined
 
 ### Contributors
-Just me
+just me
 
 ### Questions
 none
