@@ -1,8 +1,8 @@
-[![Inline docs](https://img.shields.io/badge/Build-Complete-green)
+
 # ReadME Generator
 basic readme generator
 
-###Table of Contents
+##Table of Contents
 
 *[Installing](#Installing)  
 *[Usage](#Usage)  
