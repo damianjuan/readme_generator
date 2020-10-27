@@ -1,6 +1,6 @@
 [![build](https://img.shields.io/badge/Build-Complete-green)](shields.io)
 # ReadME Generator
-![Alt text](Unsolved\assets\readme_screen_shot.jpg?raw=true "Screenshot")
+![screenshot](https://github.com/damianjuan/readme_generator/blob/master/Unsolved/assets/readme_screen_shot.jpg)
 
 Basic ReadME generator built using node.js 
 
